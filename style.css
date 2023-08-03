@@ -358,3 +358,74 @@ border-top:4px solid  hsl(208, 92%, 53%) ;
 .green-text{
     color: hsl(163, 72%, 41%);
 }
+
+@media screen and (max-width: 700px) {
+    .top {
+    
+      display: grid;
+      grid-template-columns: 1fr;
+    grid-template-areas:"one" "two" "three" "four " ;
+    grid-gap:4rem;
+       
+    }
+    .top-box{
+        grid-area: one;
+    }
+
+    .top-box2{
+        grid-area: two;
+    }
+
+    .top-box3{
+        grid-area: three;
+    }
+
+    .top-box4{
+        grid-area: four;
+    }
+
+    .btm_cards{
+        /* display:flex;
+        flex-direction: column; */
+
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+
+        grid-template-areas: "one two three four"
+        "five six seven eight";
+        gap:1rem;
+
+    }
+
+    .card{
+grid-area: one;
+    }
+
+
+    .card2{
+        grid-area: two;
+    }
+    .card3{
+        grid-area: three;
+    }
+    .card4{
+        grid-area:four;
+    }
+
+    .card5{
+        grid-area: five;
+    }
+    .card6{
+        grid-area: six;
+    }
+
+    .card7{
+        grid-area: seven;
+}
+
+
+.card8{
+    grid-area:eight;
+}
+}
