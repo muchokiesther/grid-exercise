@@ -27,6 +27,12 @@ font-family: 'Inter', sans-serif;
     
 }
 
+.btn p{
+ font-size: 14px;
+ margin-bottom: 5rem;
+ color: hsl(228, 12%, 44%);
+}
+
   
   /* Styling the slider */
   .btn .slider {
@@ -175,20 +181,14 @@ border-top:4px solid  hsl(208, 92%, 53%) ;
 }
 
 .inline-container span {
-    margin-left: 10px; /* Add some spacing between the image and the text */
-    color: white; /* Text color */
-    font-size: 18px; /* Adjust font size as needed */
+    margin-left: 10px; 
+    color: white; 
+    font-size: 18px; 
 }
 
 .inline-container  span{
     color:  hsl(228, 12%, 44%);
 }
-
-
-
-
-
-
 
 
 .btm_cards{
@@ -223,6 +223,12 @@ border-top:4px solid  hsl(208, 92%, 53%) ;
 
   
 }
+
+.card_text {
+    font-size: 1.95rem;
+} 
+
+
 .card h5{
     margin-top: 2rem;
 }
